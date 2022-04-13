@@ -13,12 +13,19 @@ function addTwoNumbers (a, b) {
 let result = addTwoNumbers(100, 90);
 console.log(result);
 
-
 /**
  *  ES6 Arrow Function With Parameters.
- *  Defined as constants to avoid being overwritten or misused later in the code.
+ *  Defined as constants (CONST!!!) to avoid being overwritten or misused later in the code.
+ *  USing the fat arrow syntax "=>"
  */ 
 
+const multiplyTwoNumbers = (a, b) => {
+    // Code block
+    return a * b;
+}
+
+let multiply = multiplyTwoNumbers(11, 980);
+console.log(multiply);
 
 // Single Line Arrow Function With Parameters
 
