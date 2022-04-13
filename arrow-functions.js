@@ -27,7 +27,20 @@ const multiplyTwoNumbers = (a, b) => {
 let multiply = multiplyTwoNumbers(11, 980);
 console.log(multiply);
 
-// Single Line Arrow Function With Parameters
+/**
+ *  Defining arrow functions we use a constant set equal to parentheses that contain our parameters then => to our code block {}.
+ *  Single Line Arrow Function with Parentheses.
+ *  (a, b) => (a / b) is also valid syntax.
+ *  Below can simplify functions by removing the need to return, implied by the fat arrow.
+ */
+
+const divideTwoNumbers = (a, b) => a / b;
+
+let divide = divideTwoNumbers(34, 12);
+console.log(divide);
+
+
+
 
 // Implicit Returns
 
