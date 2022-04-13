@@ -39,9 +39,22 @@ const divideTwoNumbers = (a, b) => a / b;
 let divide = divideTwoNumbers(34, 12);
 console.log(divide);
 
+// Implicit Returns. Single parameter say if you wish to log something to console.
 
+const speakToConsole = message => console.log(message);
+speakToConsole('Hello console!');
 
+// If you have a function that takes no parameters must have () so javaScript knows it is a function.
 
-// Implicit Returns
+const consoleTalk = () => console.log('Hello javaScript Console');
+consoleTalk();
 
 // Returning Multiple Lines
+
+const returnMultipleLines = () => (
+    `<p>
+    This is a multiple line string!
+    </p>`
+)
+
+console.log(returnMultipleLines());
